@@ -8,5 +8,6 @@ Author: Erik Berkun-Drevnig
 */
 
 $themeconf = [
-  'parent' => 'bootstrap_darkroom'
+  'parent' => 'bootstrap_darkroom',
+  'icon_dir' => 'themes/campgesher/icon',
 ];

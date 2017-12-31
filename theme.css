@@ -1,0 +1,240 @@
+#content .col-outer {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+  }
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Vollkorn';
+	padding-bottom: 180px;
+	font-size: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato';
+	margin-bottom: .75rem;
+}
+
+footer {
+	background: #525252;
+	height: 180px;
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	color: white;
+}
+
+/* Social */
+.social {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social i {
+	line-height: 40px;
+	width: 40px;
+}
+
+.social a {
+	font-size: 1.5rem;
+	display: table-cell;
+}
+
+a {
+	color: #e2585d;
+}
+
+a:hover {
+	color: #a0393e;
+}
+
+.full-width {
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+
+	margin-left: calc(-1*var( --rmax)/2);
+	margin-right: calc(-1*var( --rmax)/2);
+    width: var(--rmax);	
+}
+
+#map {
+	height: 500px;
+}
+
+.navbar {
+	border-top: 5px solid #b0e364;
+	box-shadow: 1px 0 2px 2px rgba(42, 42, 42, .25);
+}
+
+.bg-dark {
+	background: #1f5338 !important;
+}
+
+.navbar-brand {
+	font-family: 'Bitter', serif;
+	color: #525252;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+img {
+	max-width: 100%;
+}
+
+#home-header {
+	height: 75vh;
+	background: url('/images/7K4T3935.jpg');
+	background-size: cover;
+	background-position: 50% 15%;
+	/* clip-path: polygon(100% 100%, 100% 0, -400% 0); */
+}
+
+#middle {
+	background-color: #57A4A1;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.post-container > p,
+.post-container > h1, 
+.post-container > h2, 
+.post-container > h3, 
+.post-container > h4,
+.post-container > h5,
+.post-container > h6,
+.post-container > ul,
+.post-container > ol,
+.post-container > dl { 
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+
+/* .post-container a[href^="//"]:after,
+.post-container a[href^="http://"]:after,
+.post-container a[href^="https://"]:after {
+	content: '\f08e';
+	font: normal normal normal 14px/1 FontAwesome;
+	padding-left: 4px;
+} */
+
+.post-container ul {
+	list-style: none;
+}
+
+.post-container ul li:before {
+	content: "";
+	width: 5px;
+	height: 5px;
+	float: left;
+	background: #e2585d;
+	margin: 10px 8px 9px -14px;
+}
+
+span[data-toggle="tooltip"] {
+	border-bottom: 2px solid #ec1537;
+	cursor: pointer;
+}
+
+/* album */
+.album {
+	background-image: url('/images/topography.svg');
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	margin-bottom: 0;
+	background-color: #fff;
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+.album {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #f7f7f7;
+}
+
+/* .card {
+	float: left;
+	width: 33.333%;
+	padding: .75rem;
+	margin-bottom: 2rem;
+	border: 0;
+} */
+
+.card > img {
+	margin-bottom: .75rem;
+}
+
+.card-text {
+	font-size: 85%;
+}
+
+footer p {
+	margin-bottom: .25rem;
+}
+
+/**
+ * Quotes
+ */
+ blockquote {
+	font-style: italic;
+	padding: 10px 10px 20px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #faebbc;
+	border: 1px solid #e1cc89;
+	border-left-width: 10px;
+	text-indent: 20px;
+}
+
+blockquote p {
+	display: inline;
+}
+
+blockquote:before,
+blockquote:after {
+	color: #E1CC89;
+	content: "\f10d";
+	font-family: FontAwesome;
+	font-size: 30px;
+	position: relative;
+	left: -20px;
+}
+
+blockquote:after {
+	float: right;
+	margin-right: 10px;
+	content: "\f10e";
+}

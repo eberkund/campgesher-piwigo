@@ -107,13 +107,10 @@
 {if isset($MENUBAR)}
         <nav class="navbar navbar-expand-lg navbar-main {$theme_config->navbar_main_bg} {if $theme_config->page_header == 'fancy'}navbar-dark navbar-transparent fixed-top{else}{$theme_config->navbar_main_style}{/if}">
             <div class="container{if $theme_config->fluid_width}-fluid{/if}">
-{if $theme_config->logo_image_enabled && $theme_config->logo_image_path !== ''}
-                <a class="navbar-brand" href="{$U_HOME}">
-                    <img src="{$ROOT_URL}{$theme_config->logo_image_path}" alt="{$GALLERY_TITLE}" height="40" class="mr-2">{$GALLERY_TITLE}
+                <a class="navbar-brand" href="https://campgesher.com">
+                    <img src="{$ROOT_URL}{$themeconf.img_dir}/logo.svg" alt="Logo" height="40" class="mr-2">{$GALLERY_TITLE}
 		        </a>
-{else}
-                <a class="navbar-brand mr-auto" href="{$U_HOME}">{$GALLERY_TITLE}</a>
-{/if}
+
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menubar" aria-controls="navbar-menubar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa fa-bars"></span>
                 </button>

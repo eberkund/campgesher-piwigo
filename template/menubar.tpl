@@ -5,16 +5,16 @@
             About
         </a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="/activities/">Activities</a>
-            <a class="dropdown-item" href="/calendar/">Calendar</a>
-            <a class="dropdown-item" href="/camp-director/">Camp Director</a>
-            <a class="dropdown-item" href="/faq/">FAQ</a>
-            <a class="dropdown-item" href="/fees-and-dates/">Fees &amp; Dates</a>
-            <a class="dropdown-item" href="/food--nutrition/">Food &amp; Nutrition</a>
-            <a class="dropdown-item" href="/health-and-safety/">Health &amp; Safety</a>
-            <a class="dropdown-item" href="/history/">History</a>
-            <a class="dropdown-item" href="/rentals/">Rentals</a>
-            <a class="dropdown-item" href="/testimonials/">Testimonials</a>
+            <a class="dropdown-item" href="https://campgesher.com/activities/">Activities</a>
+            <a class="dropdown-item" href="https://campgesher.com/calendar/">Calendar</a>
+            <a class="dropdown-item" href="https://campgesher.com/camp-director/">Camp Director</a>
+            <a class="dropdown-item" href="https://campgesher.com/faq/">FAQ</a>
+            <a class="dropdown-item" href="https://campgesher.com/fees-and-dates/">Fees &amp; Dates</a>
+            <a class="dropdown-item" href="https://campgesher.com/food--nutrition/">Food &amp; Nutrition</a>
+            <a class="dropdown-item" href="https://campgesher.com/health-and-safety/">Health &amp; Safety</a>
+            <a class="dropdown-item" href="https://campgesher.com/history/">History</a>
+            <a class="dropdown-item" href="https://campgesher.com/rentals/">Rentals</a>
+            <a class="dropdown-item" href="https://campgesher.com/testimonials/">Testimonials</a>
         </div>
     </li>
     <li class="nav-item dropdown">
@@ -22,9 +22,9 @@
             Alumni
         </a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="/alumni-archive/">Alumni Archive</a>
+            <a class="dropdown-item" href="https://campgesher.com/alumni-archive/">Alumni Archive</a>
             <a class="dropdown-item" href="https://facebook.com/campgesher">Reconnect</a>
-            <a class="dropdown-item" href="/visiting-camp/">Visiting Camp</a>
+            <a class="dropdown-item" href="https://campgesher.com/visiting-camp/">Visiting Camp</a>
         </div>
     </li>
     <li class="nav-item dropdown">
@@ -32,9 +32,9 @@
             Contact
         </a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="/contact-us/">Contact Us</a>
-            <a class="dropdown-item" href="/directions/">Directions</a>
-            <a class="dropdown-item" href="/write-a-camper/">Write a Camper</a>
+            <a class="dropdown-item" href="https://campgesher.com/contact-us/">Contact Us</a>
+            <a class="dropdown-item" href="https://campgesher.com/directions/">Directions</a>
+            <a class="dropdown-item" href="https://campgesher.com/write-a-camper/">Write a Camper</a>
         </div>
     </li>
     <li class="nav-item">
@@ -45,9 +45,9 @@
             Preparation
         </a>
         <div class="dropdown-menu">
-            <a class="dropdown-item" href="/schedule/">Daily Schedule</a>
-            <a class="dropdown-item" href="/packing-list/">Packing List</a>
-            <a class="dropdown-item" href="/transportation/">Transportation</a>
+            <a class="dropdown-item" href="https://campgesher.com/schedule/">Daily Schedule</a>
+            <a class="dropdown-item" href="https://campgesher.com/packing-list/">Packing List</a>
+            <a class="dropdown-item" href="https://campgesher.com/transportation/">Transportation</a>
         </div>
     </li>
     <li class="nav-item dropdown">
@@ -57,7 +57,7 @@
         <div class="dropdown-menu">
             <a class="dropdown-item" href="https://jewishtoronto.com/cje/camp">Camp Grant</a>
             <a class="dropdown-item" href="https://gesher.campbrainregistration.com/">Summer Sessions</a>
-            <a class="dropdown-item" href="/taste-of-gesher/">Taste of Gesher</a>
+            <a class="dropdown-item" href="https://campgesher.com/taste-of-gesher/">Taste of Gesher</a>
         </div>
     </li>
 {assign var="discover_menu_exists" value=false}

@@ -112,8 +112,10 @@
                     <img src="{$ROOT_URL}{$themeconf.img_dir}/logo.svg" alt="Logo" height="40" class="mr-2">{$GALLERY_TITLE}
 		        </a>
 
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menubar" aria-controls="navbar-menubar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span>
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-menubar" aria-controls="navbar-menubar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-menubar">
 {if $theme_config->quicksearch_navbar}

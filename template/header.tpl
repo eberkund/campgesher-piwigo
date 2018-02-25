@@ -74,6 +74,7 @@
 {/if}
 {if !empty($theme.local_head)}{include file=$theme.local_head load_css=$theme.load_css}{/if}
 {/foreach}
+{combine_css path="themes/campgesher/gallery.css" order=-9}
 {if file_exists("local/bootstrap_darkroom/custom.css")}
     {combine_css path="local/bootstrap_darkroom/custom.css" order=10000}
 {/if}
@@ -81,7 +82,7 @@
 {if $BODY_ID == 'theAdditionalPage' || $BODY_ID == 'theHomePage' || $bootstrap_darkroom_core_js_in_header == true }
 {assign var=loc value="header"}
 {else}
-{assign var=loc value="footer"} 
+{assign var=loc value="footer"}
 {/if}
 {combine_script id='jquery' path='themes/bootstrap_darkroom/node_modules/jquery/dist/jquery.min.js' load=$loc}
 {combine_script id='jquery-migrate' require='jquery' path='themes/bootstrap_darkroom/node_modules/jquery-migrate/dist/jquery-migrate.min.js' load=$loc}

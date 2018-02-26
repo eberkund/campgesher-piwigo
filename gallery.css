@@ -5,3 +5,10 @@
 body {
 	padding-top: 0 !important;
 }
+
+#content .col-outer {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}

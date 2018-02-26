@@ -74,7 +74,7 @@
 {/if}
 {if !empty($theme.local_head)}{include file=$theme.local_head load_css=$theme.load_css}{/if}
 {/foreach}
-{combine_css path="themes/campgesher/gallery.css" order=-9}
+{combine_css path="themes/campgesher/gallery.css" order=100}
 {if file_exists("local/bootstrap_darkroom/custom.css")}
     {combine_css path="local/bootstrap_darkroom/custom.css" order=10000}
 {/if}

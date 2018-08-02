@@ -24,7 +24,7 @@
 
     <title>{if $PAGE_TITLE!=l10n('Home') && $PAGE_TITLE!=$GALLERY_TITLE}{$PAGE_TITLE} | {/if}{$GALLERY_TITLE}</title>
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato|Bitter:700|Vollkorn">
-    <link rel="shortcut icon" type="image/x-icon" href="{$ROOT_URL}{$themeconf.icon_dir}/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{$ROOT_URL}themes/campgesher/icon/favicon.ico">
     <link rel="icon" sizes="192x192" href="{$ROOT_URL}themes/bootstrap_darkroom/img/logo.png">
     <link rel="apple-touch-icon" sizes="192x192" href="{$ROOT_URL}themes/bootstrap_darkroom/img/logo.png">
     <link rel="start" title="{'Home'|@translate}" href="{$U_HOME}" >
@@ -110,8 +110,8 @@
         <nav class="navbar navbar-expand-lg navbar-main {$theme_config->navbar_main_bg} {if $theme_config->page_header == 'fancy'}navbar-dark navbar-transparent fixed-top{else}{$theme_config->navbar_main_style}{/if}">
             <div class="container{if $theme_config->fluid_width}-fluid{/if}">
                 <a class="navbar-brand" href="https://campgesher.com">
-                    <img src="{$ROOT_URL}{$themeconf.img_dir}/logo.svg" alt="Logo" height="40" class="mr-2">{$GALLERY_TITLE}
-		        </a>
+                    <img src="{$ROOT_URL}themes/campgesher/images/logo.svg" alt="Logo" height="40" class="mr-2">{$GALLERY_TITLE}
+                </a>
 
                 <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-menubar" aria-controls="navbar-menubar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar top-bar"></span>

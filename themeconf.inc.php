@@ -9,6 +9,4 @@ Author: Erik Berkun-Drevnig
 
 $themeconf = [
   'parent' => 'bootstrap_darkroom',
-  'icon_dir' => 'themes/campgesher/icon',
-  'img_dir' => 'themes/campgesher/images',
 ];

@@ -1,6 +1,5 @@
 <!-- Start of index.tpl -->
 {combine_script id='cookie' require='jquery' path='themes/bootstrap_darkroom/js/jquery.cookie.js' load='footer'}
-{combine_script id='equalheights' require='jquery' path='themes/bootstrap_darkroom/js/jquery.equalheights.js' load='footer'}
 {if get_device() != 'desktop'}
 {combine_script id='jquery.mobile-events' path='themes/bootstrap_darkroom/js/jquery.mobile-events.min.js' require='jquery' load='footer'}
 {/if}
@@ -47,11 +46,6 @@
 {if !empty($CATEGORIES)}
     <!-- Start of categories -->
 {$CATEGORIES}
-{footer_script require='jquery'}{strip}
-$(document).ready(function() {
-  $('#content .col-outer .card-body').equalHeights();
-});
-{/strip}{/footer_script}
     <!-- End of categories -->
 {/if}
 
